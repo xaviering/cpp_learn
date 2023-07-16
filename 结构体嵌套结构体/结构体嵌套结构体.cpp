@@ -2,10 +2,29 @@
 //
 
 #include <iostream>
+#include<string>
+using namespace std;
 
+struct Student
+{
+	string name;
+	int age;
+	int score;
+};
+
+struct Teacher
+{
+	int id;
+	string name;
+	int age;
+	Student stu[2];
+};
 int main()
 {
-	std::cout << "Hello World!\n";
+	Teacher teacher = { 1, "wangwu", 45,  {{"zhangsan", 15, 99}, {"lisi", 14, 100}} };
+	cout << teacher.stu[0].name << teacher.stu[0].age << teacher.stu[0].score << endl;
+	cout << teacher.stu[1].name << teacher.stu[1].age << teacher.stu[1].score << endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
