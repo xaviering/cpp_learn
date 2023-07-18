@@ -10,7 +10,9 @@
  */
 int main()
 {
-	std::cout << "Hello World!\n";
+	static const int a = 1; .
+
+		std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
