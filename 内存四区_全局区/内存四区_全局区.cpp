@@ -1,7 +1,13 @@
-﻿// 内存四区_代码区.cpp : This file contains the 'main' function. Program execution begins and ends there.
+﻿// 内存四区_全局区.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
+/*
+ *全局区：
+ *全局变量和静态变量存放在此
+ *全局区还包含了常量区，字符串常量和其他常量也存放在此
+ *该区域的数据在程序结束后由操作系统系统释放
+ */
 int main()
 {
 	std::cout << "Hello World!\n";

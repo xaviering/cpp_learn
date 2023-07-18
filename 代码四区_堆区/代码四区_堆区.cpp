@@ -1,10 +1,23 @@
-﻿// 内存四区_代码区.cpp : This file contains the 'main' function. Program execution begins and ends there.
+﻿// 代码四区_堆区.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
+using namespace std;
+/*
+ *堆区数据由程序员管理开辟和释放
+ *堆区数据利用new 关键字进行开辟内存
+ */
+int* func()
+{
+	int* p = new int(10);
+	return p;
+
+}
 int main()
 {
-	std::cout << "Hello World!\n";
+	int* p = func();
+
+	std::cout << "Hello World!\n" << *p << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
