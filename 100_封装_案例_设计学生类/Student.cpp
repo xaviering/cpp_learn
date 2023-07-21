@@ -36,5 +36,9 @@ Student::Student()
 
 }
 
+Student::~Student()
+{
+
+}
 
 

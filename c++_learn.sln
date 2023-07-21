@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "99_封装_属性和行为�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "100_封装_案例_设计学生类", "100_封装_案例_设计学生类\100_封装_案例_设计学生类.vcxproj", "{88BB5EAE-3AFD-45FC-8D06-C7EA35498092}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "101_封装_权限访问", "101_封装_权限访问\101_封装_权限访问.vcxproj", "{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -351,6 +353,14 @@ Global
 		{88BB5EAE-3AFD-45FC-8D06-C7EA35498092}.Release|x64.Build.0 = Release|x64
 		{88BB5EAE-3AFD-45FC-8D06-C7EA35498092}.Release|x86.ActiveCfg = Release|Win32
 		{88BB5EAE-3AFD-45FC-8D06-C7EA35498092}.Release|x86.Build.0 = Release|Win32
+		{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}.Debug|x64.ActiveCfg = Debug|x64
+		{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}.Debug|x64.Build.0 = Debug|x64
+		{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}.Debug|x86.Build.0 = Debug|Win32
+		{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}.Release|x64.ActiveCfg = Release|x64
+		{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}.Release|x64.Build.0 = Release|x64
+		{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}.Release|x86.ActiveCfg = Release|Win32
+		{C845C71B-7B15-4CCE-B6B7-F71F3A25933B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
